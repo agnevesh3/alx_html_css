@@ -1,0 +1,226 @@
+<!--My first HTML exercise/blues_Music-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Base Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="this is an exercise, to fulfil the requirements of ALX Introduction to Software Engineering ">
+    <meta name="author" content="Agnaldo Luis Neve">
+    <style>
+        nav {
+            background-color: blue;
+            color: floralwhite;
+            padding: 15px
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: floralwhite;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+
+        p,
+        h1,
+        h2,
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+        }
+
+        .side {
+            position: absolute;
+            width: 70%;
+            height: 40px;
+            padding: 0px;
+            margin: 10px;
+        }
+
+        p,
+        .footer-content,
+        .aside-content {
+            padding: 10px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        .video-container {
+            padding: 20px;
+            margin-top: 60px;
+        }
+
+        aside {
+            background-color: grey;
+            padding: 1px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 140px;
+            right: 10px;
+            bottom: 0;
+            width: 300px;
+            height: 500px
+        }
+
+        footer {
+            background-color: blue;
+            color: white;
+            height: 250px;
+        }
+
+        .author {
+            color: red;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+
+        table {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-collapse: collapse;
+            margin-top: 0px;
+            margin-bottom: 20px
+        }
+
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 120px;
+        }
+
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>The overwelming story of Blues Music</h1>
+            <h2>The Mississipi Delta Blues</h2>
+            <p class="side">The Mississippi Delta Blues, a genre deeply rooted in the <em>African American</em>
+                experience, traces
+                its
+                origins back to
+                the early <a
+                    href="https://www.gettyimages.no/detail/news-photo/mississippi-born-country-blues-guitarist-and-blues-pianist-news-photo/1245676363?adppopup=true"
+                    title="David Gahr">20<sup>th</sup>
+                    century</a>. Emerging from the fertile soils of the Mississippi Delta region, this raw and emotive
+                style of music grew out of the hardships and <strong>struggles faced by African Americans during the era
+                    of
+                    sharecropping and segregation</strong>. The Delta Blues were often performed by solo <a
+                    href="mississipi.jpg" title="John Hurt" alt="Blues Music">artists armed with a guitar</a>,
+                harmonica, and their heartfelt voices, weaving tales of sorrow, love, and hope. These artists, such as
+                <em>Robert
+                    Johnson, Son House, and Charley Patton</em>, were pioneers in crafting a distinct sound
+                characterized by
+                haunting
+                melodies, soulful vocals, and intricate guitar fingerpicking.
+            </p>
+            <div class="video-container"><video src="Mississippi Delta Blues 1975.mp4" autoplay controls loop
+                    preload="auto" width="400px" height="400px"></video>
+            </div>
+            <p>At its core, the Mississippi Delta Blues draws heavily from African musical traditions, intertwining them
+                with
+                the experiences and emotions of African Americans living in the Delta. The music incorporates elements
+                such
+                as
+                call-and-response patterns, polyrhythms, and the use of blue notes—bent or flattened notes that give the
+                genre
+                its unique melancholic sound. These African influences reflect the resilience and spirit of a community
+                that
+                found solace and expression in the music, using it as a means of preserving their cultural heritage and
+                expressing their struggles. The Mississippi Delta Blues became a powerful vehicle for storytelling,
+                allowing
+                artists to share their experiences, hopes, and dreams while capturing the essence of a bygone era and
+                shaping
+                the future of American music.</p>
+
+            <h3>The Blues Today</h3>
+            <p>In the present day, the development of Mississippi Delta Blues is marked by a vibrant blend of
+                preservation,
+                innovation, and cross-cultural influence. While traditional Delta Blues remains cherished, efforts to
+                preserve
+                its authenticity and educate new generations about its rich history have flourished through festivals,
+                workshops, and educational programs. Simultaneously, the genre's influence has transcended boundaries,
+                permeating contemporary music styles and inspiring artists from diverse backgrounds to incorporate Delta
+                Blues
+                elements into their compositions. Advancements in technology and the accessibility of music production
+                have
+                further facilitated the dissemination of Delta Blues-inspired music, fostering global connections and
+                collaborations. This ongoing evolution ensures that the Mississippi Delta Blues, rooted in African
+                American
+                musical traditions, maintains its relevance and captivates audiences around the world, while honoring
+                its
+                enduring legacy.</p>
+        </article>
+        <aside>
+            <p class="aside-content">placeholder to add comment thread later</p>
+        </aside>
+        <article>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Emily</td>
+                        <td>28</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Michael</td>
+                        <td>32</td>
+                        <td>Australia</td>
+                    </tr>
+                    <tr>
+                        <td>Sophia</td>
+                        <td>21</td>
+                        <td>UK</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
+
+    <footer>
+        <p class="footer-content">Made by Agnaldo Luis Neve <a class="author" href="linkedin.com/in/agnaldoluisneve"
+                target="_blank">here</a></p>
+    </footer>
+</body>
+
+</html>
