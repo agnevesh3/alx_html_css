@@ -1,1 +1,116 @@
+<!--My first HTML exercise-->
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Base Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="keywords"
+        content="this is an exercise, to fulfil the requirements of ALX Introduction to Software Engineering ">
+    <meta name="author" content="Agnaldo Luis Neve">
+    <style>
+        nav {
+            background-color: blue;
+            color: floralwhite;
+            padding: 15px
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: floralwhite;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+
+        p,
+        h1,
+        h2,
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p,
+        .footer-content,
+        .aside-content {
+            padding: 10px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        aside {
+            background-color: grey;
+            padding: 1px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 140px;
+            right: 10px;
+            bottom: 0;
+            width: 300px;
+            height: 500px;
+        }
+
+
+        footer {
+            background-color: blue;
+            color: white;
+            height: 250px;
+            padding: 1.5px
+        }
+
+        .author {
+            color: red;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="tweets.html">Tweets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>The embeded tweets</h2>
+            <blockquote class="twitter-tweet" data-theme="dark">
+                <p lang="en" dir="ltr">Into The Evening, B.B. King!!!<br><br>&quot;How Blue Can You Get&quot; <a
+                        href="https://twitter.com/hashtag/blues?src=hash&amp;ref_src=twsrc%5Etfw">#blues</a> <a
+                        href="https://twitter.com/hashtag/bluesmusic?src=hash&amp;ref_src=twsrc%5Etfw">#bluesmusic</a>
+                    <a href="https://t.co/1pKmw93R0G">pic.twitter.com/1pKmw93R0G</a>
+                </p>&mdash; bluesjazz6_A
+                (@Bluesjazz6A)
+                <a href="https://twitter.com/Bluesjazz6A/status/1673481392657772544?ref_src=twsrc%5Etfw">June 27,
+                    2023</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by Agnaldo Luis Neve <a class="author" href="linkedin.com/in/agnaldoluisneve" target="_blank">here</a>
+        </p>
+    </footer>
+</body>
+
+
+</html>
