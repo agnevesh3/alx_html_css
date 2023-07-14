@@ -418,7 +418,7 @@ ul.row {
 
 }
 
-.nav .nav-item+.nav-item {}
+.navbar-menu .nav-item+.nav-item {}
 
 .nav .nav-link {
     display: block;
