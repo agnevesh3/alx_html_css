@@ -409,6 +409,10 @@ ul.row {
     text-align: center;
 }
 
+.nav .nav-item+.nav-item {
+    display: var(--nav-item-display);
+}
+
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -418,9 +422,7 @@ ul.row {
 
 }
 
-.navbar-menu .nav-item+.nav-item {
-    display: var(--nav-item-display);
-}
+
 
 .nav .nav-link {
     display: block;
