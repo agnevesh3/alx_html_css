@@ -1,0 +1,387 @@
+/*css_advanced*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(242, 242, 242, 1)
+}
+
+span {
+    color: rgba(194, 113, 255, 1);
+}
+
+/*header styling*/
+
+.container {
+    background-image: url(Object.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+    color: rgba(255, 255, 255, 1);
+    padding: 40px 140px;
+}
+
+.nav-list {
+    column-gap: 20px;
+    font-weight: bold;
+    column-gap: 40px;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 1; )
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 20px;
+    list-style: none;
+}
+
+#name {
+    color: rgba(7, 22, 41, 1)
+}
+
+#description {
+    color: rgba(7, 22, 41, 0.5016)
+}
+
+#list,
+#list a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.middle-container {
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.middle-container h1 {
+    font-size: 120px;
+    padding: 70px 0 10px 0;
+}
+
+.middle-list {
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    column-gap: 60px;
+}
+
+.btn {
+    background-color: rgba(194, 113, 255, 1);
+    border-radius: 20px;
+    border-color: 1px solid rgba(194, 113, 255, 1);
+    height: 44px;
+    width: 162px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.middle-container button {
+    margin: 20px 0 120px 0px;
+}
+
+.middle-container h2 {
+    padding: 0px 0px 50px 0px;
+}
+
+.pros-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    margin-bottom: 40px;
+}
+
+.pros-cards {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+    {
+    font-weight: 25px;
+}
+
+.pros-img {
+    border-radius: 75%;
+}
+
+/*Main - tutorial section*/
+.tutorial-section {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 40px;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    background-color: rgba(194, 113, 255, 1);
+    height: 275px;
+}
+
+.scripts p {
+    margin: 10px 0px;
+
+}
+
+#wrapp {
+    width: 670px;
+    line-height: 2em;
+}
+
+#spacing p {
+    margin: 10px 0px;
+}
+
+/*Main - Video section*/
+
+.most-popular {
+    color: rgba(7, 22, 41, 1);
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.video-cards {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.tutorial-cards {
+    display: block;
+}
+
+.img-overlap .main-img {
+    position: absolute;
+
+}
+
+.img-overlap .play-img {
+    position: relative;
+    margin: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.card-part1 p {
+    width: 255px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-part2 {
+    display: block;
+}
+
+.card-part2 div {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 10px 0px;
+    column-gap: 20px;
+}
+
+.card-part2 img {
+    padding-bottom: 5px;
+}
+
+.img-smaller {
+    height: 30px;
+    width: 30px;
+}
+
+/*Membership section*/
+
+.container-membership {
+    background-color: rgba(7, 22, 41, 1);
+    display: block;
+    height: 380px;
+
+    text-align: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.section-title {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 30px 0px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.container-membership div {
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 0px;
+}
+
+.line-name {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+
+.cards-membership {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+}
+
+.cards-membership div {
+    width: 200px;
+    margin: 0 20px;
+}
+
+
+/* FAQ */
+.container-faq h2 {
+    text-align: center;
+    height: 60px;
+    padding: 20px 0px;
+}
+
+.faq-content {
+    display: block
+}
+
+.faq-paragraph {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.faq-paragraph p {
+    width: 40%;
+    line-height: 2.0em;
+    margin: 0 20px;
+}
+
+/*footer*/
+.footer {
+    display: block;
+    background-color: rgba(7, 22, 41, 1);
+}
+
+#footer-icons {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+    height: 173px;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.logo {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+ion-icon {
+    color: white;
+    font-size: 64px;
+    padding: 0 20px;
+}
+
+.copywrite {
+    color: rgba(151, 151, 151, 1);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .body {
+        margin: 0px 0px;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .container {
+        height: auto;
+        padding: 10px;
+
+    }
+
+
+    .middle-container {
+        padding: 0px;
+    }
+
+    .middle-container h1 {
+        font-size: 80px;
+    }
+
+    .nav-list {
+        padding: 60px 0px;
+        column-gap: 15px;
+    }
+
+    .pros-cards {
+        width: 50%;
+        padding: 10px
+    }
+
+    .tutorial-section {
+        padding: 20px 0;
+        height: auto;
+    }
+
+    #wrapp,
+    .scripts div {
+        width: auto;
+        padding: 5px 20px;
+    }
+
+    .tutorial-cards {
+        width: 60%;
+        display: flex;
+        margin: auto;
+    }
+
+    .card-part2 div {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .container-membership {
+        height: auto;
+        padding: 20px;
+    }
+
+    .cards-membership div {
+        width: 40%;
+        padding: 10px;
+    }
+}
